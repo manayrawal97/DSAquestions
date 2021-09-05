@@ -1,6 +1,6 @@
 // Q: Write a program to create an array consisting 10 elements and print it in reverse.
 
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
 
 void main()
