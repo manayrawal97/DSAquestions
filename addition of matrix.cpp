@@ -1,8 +1,10 @@
-//Program for addition of matrices.....
+//  Program for addition of matrices
 
-#include<iostream>
-using namespace std;
-int main(){
+#include<iostream.h>
+#incluide<conio.h>
+void main()
+        {
+	clrscr();
 	int arr1[3][3],arr2[3][3],sum[3][3];
 	cout<<"Enter Elements in 1st array : ";
 	for(i=0;i<3;i++){
@@ -29,6 +31,7 @@ int main(){
 		}
 		printf("\n");
 	}
+getch();
 }
 
 //Manay Rawal
