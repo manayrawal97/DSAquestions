@@ -1,7 +1,7 @@
 //  Program for addition of matrices
 
 #include<iostream.h>
-#incluide<conio.h>
+#include<conio.h>
 void main()
         {
 	clrscr();
