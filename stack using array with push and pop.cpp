@@ -1,6 +1,7 @@
 // Write a program to implement stack using "Array" with 'puch and pop' operations on it ?
 
-#include <iostream>
+#include<stdio.h>
+#include<iostream.h>
 using namespace std;
 int stack[100], n=100, top=-1;
 void push(int val)
@@ -38,19 +39,19 @@ void display()
 int main() 
 {
    int ch, val;
-   cout<<"1) Push in stack"<<endl;
-   cout<<"2) Pop from stack"<<endl;
-   cout<<"3) Display stack"<<endl;
-   cout<<"4) Exit"<<endl;
+   cout<<"1.) Push in stack\n"<<endl;
+   cout<<"2.) Pop from stack\n"<<endl;
+   cout<<"3.) Display stack\n"<<endl;
+   cout<<"4.) Exit"<<endl;
    do 
    {
-      cout<<"Enter choice: "<<endl;
+      cout<<"\nEnter choice: "<<endl;
       cin>>ch;
       switch(ch) 
       {
          case 1: 
           {
-            cout<<"Enter value to be pushed:"<<endl;
+            cout<<"\nEnter value to be pushed:"<<endl;
             cin>>val;
             push(val);
             break;
